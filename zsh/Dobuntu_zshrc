@@ -6,11 +6,11 @@
 # V 1.1           - Added LS(Deluxe) & related aliases (https://github.com/Peltoche/lsd)  
 
 ####################### STAY AT THE TOP #######################
-# ENABLE TERMINAL COLOURS
-autoload -U colors && colors
-
 # Run NEOFETCH at terminal start
 neofetch
+
+# ENABLE TERMINAL COLOURS
+autoload -U colors && colors
 
 # SETUP THE PROMPT
 autoload -Uz promptinit
@@ -101,8 +101,8 @@ export SPROMPT="Correct $fg[red]%R$reset_color to $fg[green]%r$reset_color? [Yes
 # Enable HISTORY
 setopt histignorealldups sharehistory appendhistory histreduceblanks histignorespace
 
-HISTSIZE=200
-SAVEHIST=200
+HISTSIZE=2000
+SAVEHIST=2000
 HISTFILE=~/.zsh_history
 
 # Enable CHANGE DIRECTORIES
