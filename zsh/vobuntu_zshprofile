@@ -1,0 +1,14 @@
+#######################
+# ZPROFILE FILE V 1.0 #
+#######################
+# VERSION HISTORY
+# V 1.0 (Initial) - 
+
+
+#######################
+#      VARIABLES      #
+#######################
+
+# Open Visual Studio Code by typing "code" in macOS terminal
+# You can change "code" to anything you want
+code () { VSCODE_CWD="$PWD" open -n -b "com.microsoft.VSCode" --args $* ;}
