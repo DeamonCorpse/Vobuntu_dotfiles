@@ -1,1 +1,6 @@
+# SYNOLOGY
 .DS_Store
+
+# SPECIFIC FILE TYPES
+*.tmp
+*.bak
