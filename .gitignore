@@ -1,6 +1,46 @@
-# SYNOLOGY
-.DS_Store
+################## GITIGNORE FILE V 1.0 ##################
+# Revision History
+# V 1.O         -   Initial
 
-# SPECIFIC FILE TYPES
-*.tmp
-*.bak
+
+# FILE TYPES
+* alias                       # macOS alias
+*.bak                       # Backup file
+*.cab                       # MS Windows installer file
+[Dd]esktop.ini              # MS Windows config file
+*.dmg                       # macOS installer file
+*.fseventsd                 #
+*.icns                      # Icons
+*.lnk                       # MS Windows shortcuts
+*.msi                       # MS Windows installer file
+*.msix                      # MS Windows installer file
+*.msm                       # MS Windows installer file
+*.msp                       # MS Windows installer file
+*.stackdump                 # Dump file
+*.tmp                       # Temp file
+Thumbs.AppleDB              # macOS Thumbnails
+Thumbs.db                   # MS Windows thumbnails
+*.Trashes                   # Trash can
+
+
+## File(s) that might appear at the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+
+# DIRECTORY TYPES
+.AppleDouble                 # macOS
+.DS_Store                    # Synology Cloud Station / Drive storage config file
+.localized                   # macOS
+.LSOverride                  # macOS
+.AppleDB                     # Potentially created on remote AFP share
+.AppleDesktop                # Potentially created on remote AFP share
+.apdisk                      # Potentially created on remote AFP share
+Network Trash Folder         # Potentially created on remote AFP share
+Temporary Items              # Potentially created on remote AFP share
+
