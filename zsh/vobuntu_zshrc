@@ -43,7 +43,7 @@ unsetopt beep
 # ALIASES
 alias shutdown='sudo shutdown now'
 alias restart='sudo reboot'
-alias sourcet='source ~/.zshrc'         	    # Refresh/restart terminal
+alias srct='source ~/.zshrc'         	        # Refresh/restart terminal
 alias nano='sudo nano'                  	    # Run nano as admin
 alias vi='sudo vi'                      	    # Run vim as admin
 alias zshrc='sudo nano ~/.zshrc'                # Edit .zshrc file
