@@ -1,9 +1,10 @@
 # !/bin/zsh
 
-############## DOBUNTU ZSHRC V 1.1 ##############
+############## DOBUNTU ZSHRC V 1.2 ##############
 # VERSION HISTORY
 # V 1.0 (Initial) - Moved to Github
-# V 1.1           - Added LS(Deluxe) & related aliases (https://github.com/Peltoche/lsd)  
+# V 1.1           - Added LS(Deluxe) & related aliases (https://github.com/Peltoche/lsd) 
+# V 1.2           - Removed docker aliases, added html folder aliases 
 
 ####################### STAY AT THE TOP #######################
 # Run NEOFETCH at terminal start
@@ -49,6 +50,9 @@ alias zshrc='sudo nano ~/.zshrc'                # Edit .zshrc file
 alias ufw='sudo ufw'                            # Run UFW as admin
 alias sshd='sudo nano /etc/ssh/sshd_config'     # Edit sshd_config file
 
+alias familyf='cd /var/www/family/html'         # Go to the family website html folder
+alias techf='cd /var/www/tech/html'             # Go to the tech website html folder
+
 alias apt='sudo apt'                            # Using apt
 alias snap='sudo snap'                          # Using snap
 
@@ -76,13 +80,6 @@ alias ls='lsd'                          # Use LSD instead of LS
 alias lsa='ls -ahA'                     # List all files including hidden ones without the . & .. in a human readable format
 alias lsl='ls -lhA'                     # Detailed listing without the . & .. in a human readable format
 alias lsal='ls -ahlA'                   # Detailed listing including hidden files without the . & .. in a human readable format
-
-alias docke='sudo docker exec -it'      # Going inside a container
-alias docki="sudo docker inspect"       # Display the information about a container
-alias dockimg='sudo docker images'      # List images installed
-alias dockps='sudo docker ps'           # List running containers
-alias dockr='sudo docker run'           # Run a container
-
 
 
 ####################### ZSH DEFAULT OPTIONS #######################
