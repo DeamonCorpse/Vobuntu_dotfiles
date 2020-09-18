@@ -9,6 +9,6 @@
 #      VARIABLES      #
 #######################
 
-# Open Visual Studio Code by typing "code" in macOS terminal
+# Open Visual Studio Code by typing "code" in terminal
 # You can change "code" to anything you want
-code () { VSCODE_CWD="$PWD" open -n -b "com.microsoft.VSCode" --args $* ;}
+vsc () { VSCODE_CWD="$PWD" open -n -b "com.microsoft.VSCode" --args $* ;}
