@@ -35,8 +35,8 @@ Thumbs.db                   # MS Windows thumbnails
 
 
 ## Specific Files
-fstab/fstab                  # fstab located at /etc/fstab
-
+fstab/fstab
+etc/.docker-creds
 
 # DIRECTORY TYPES
 .AppleDouble                 # macOS
@@ -48,4 +48,5 @@ fstab/fstab                  # fstab located at /etc/fstab
 .apdisk                      # Potentially created on remote AFP share
 Network Trash Folder         # Potentially created on remote AFP share
 Temporary Items              # Potentially created on remote AFP share
+
 
