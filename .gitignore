@@ -1,6 +1,7 @@
-################## GITIGNORE FILE V 1.0 ##################
+################## GITIGNORE FILE V 1.1 ##################
 # Revision History
 # V 1.O         -   Initial
+# V 1.1         -   Added fstab
 
 
 # FILE TYPES
@@ -31,6 +32,10 @@ Thumbs.db                   # MS Windows thumbnails
 .Trashes
 .VolumeIcon.icns
 .com.apple.timemachine.donotpresent
+
+
+## Specific Files
+fstab/fstab                  # fstab located at /etc/fstab
 
 
 # DIRECTORY TYPES
